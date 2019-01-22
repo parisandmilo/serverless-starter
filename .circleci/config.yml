@@ -36,6 +36,9 @@ jobs:
       - run:
           name: Deploy application 
           command: sls deploy -v --stage $CIRCLE_BRANCH
+          filters:
+            branches:
+              only: master
           # command: sls deploy -v --stage $CIRCLE_BRANCH --service_user $SERVICE_USER --service_sec $SERVICE_SEC
 
       - save_cache:
