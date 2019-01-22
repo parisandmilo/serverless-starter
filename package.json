@@ -21,6 +21,7 @@
     "eslint-plugin-import": "^2.11.0",
     "jest": "^21.2.1",
     "jsdoc": "^3.5.5",
+    "merge": "^1.2.1",
     "serverless-dynamodb-local": "^0.2.35",
     "serverless-offline": "^3.25.12",
     "serverless-offline-scheduler": "^0.3.4"
